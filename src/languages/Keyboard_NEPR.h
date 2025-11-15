@@ -2,7 +2,7 @@
 
 // Nepali
 
-const UnicodeLookup kbdnepr[] PROGMEM = 
+const UnicodeLookup kbdnepr[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -92,7 +92,7 @@ const UnicodeLookup kbdnepr[] PROGMEM =
   {0x0930, 0x38},	// Devanagari Letter Ra
 };
 
-const DeadkeyLookup kbdnepr_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdnepr_deadkeys[] = 
 {
 };
 

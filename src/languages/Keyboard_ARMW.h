@@ -2,7 +2,7 @@
 
 // Armenian Western (Legacy)
 
-const UnicodeLookup kbdarmw[] PROGMEM = 
+const UnicodeLookup kbdarmw[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdarmw[] PROGMEM =
   {0x056e, 0x38},	// Armenian Small Letter Ca
 };
 
-const DeadkeyLookup kbdarmw_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdarmw_deadkeys[] = 
 {
 };
 

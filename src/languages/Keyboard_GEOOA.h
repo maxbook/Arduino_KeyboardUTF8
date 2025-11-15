@@ -2,7 +2,7 @@
 
 // Georgian (Old Alphabets)
 
-const UnicodeLookup kbdgeooa[] PROGMEM = 
+const UnicodeLookup kbdgeooa[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -139,7 +139,7 @@ const UnicodeLookup kbdgeooa[] PROGMEM =
   {0x2d1c, 0x38},	// Georgian Small Letter Cil (Khutsuri)
 };
 
-const DeadkeyLookup kbdgeooa_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgeooa_deadkeys[] = 
 {
 };
 

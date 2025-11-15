@@ -2,7 +2,7 @@
 
 // Hausa
 
-const UnicodeLookup kbdhau[] PROGMEM = 
+const UnicodeLookup kbdhau[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -118,7 +118,7 @@ const UnicodeLookup kbdhau[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdhau_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhau_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Inuktitut - Latin
 
-const UnicodeLookup kbdiulat[] PROGMEM = 
+const UnicodeLookup kbdiulat[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -168,7 +168,7 @@ const UnicodeLookup kbdiulat[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdiulat_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdiulat_deadkeys[] = 
 {
 };
 

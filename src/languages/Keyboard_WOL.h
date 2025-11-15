@@ -2,7 +2,7 @@
 
 // Wolof
 
-const UnicodeLookup kbdwol[] PROGMEM = 
+const UnicodeLookup kbdwol[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -116,7 +116,7 @@ const UnicodeLookup kbdwol[] PROGMEM =
   {0x0021, 0x38},	// Exclamation Mark
 };
 
-const DeadkeyLookup kbdwol_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdwol_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x1f | MOD_ALTGR},	// ~  accent
   {0x00e3, 0x0061, 0x1f | MOD_ALTGR},	// ã Small A Tilde

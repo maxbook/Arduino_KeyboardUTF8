@@ -2,7 +2,7 @@
 
 // Canadian French
 
-const UnicodeLookup kbdca[] PROGMEM = 
+const UnicodeLookup kbdca[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -124,7 +124,7 @@ const UnicodeLookup kbdca[] PROGMEM =
   {0x00e9, 0x38},	// Latin Small Letter E With Acute
 };
 
-const DeadkeyLookup kbdca_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdca_deadkeys[] = 
 {
   {0x00b4, 0x00b4, 0x38 | MOD_ALTGR},	// ´  accent
   {0x00e1, 0x0061, 0x38 | MOD_ALTGR},	// á Small A Acute

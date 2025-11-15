@@ -2,7 +2,7 @@
 
 // Irish
 
-const UnicodeLookup kbdir[] PROGMEM = 
+const UnicodeLookup kbdir[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -119,7 +119,7 @@ const UnicodeLookup kbdir[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdir_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdir_deadkeys[] = 
 {
   {0x00b4, 0x00b4, 0x34 | MOD_ALTGR},	// ´  accent
   {0x00e1, 0x0061, 0x34 | MOD_ALTGR},	// á Small A Acute

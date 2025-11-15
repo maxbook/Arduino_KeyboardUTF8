@@ -2,7 +2,7 @@
 
 // Sami Extended Norway
 
-const UnicodeLookup kbdsmsno[] PROGMEM = 
+const UnicodeLookup kbdsmsno[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -147,7 +147,7 @@ const UnicodeLookup kbdsmsno[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdsmsno_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsmsno_deadkeys[] = 
 {
   {0x005e, 0x005e, 0x2f | (MOD_SHIFT | MOD_ALTGR)},	// ^  accent
   {0x00e2, 0x0061, 0x2f | (MOD_SHIFT | MOD_ALTGR)},	// â Small A Circumflex

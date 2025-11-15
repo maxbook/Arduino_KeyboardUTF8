@@ -2,7 +2,7 @@
 
 // Portuguese
 
-const UnicodeLookup kbdpo[] PROGMEM = 
+const UnicodeLookup kbdpo[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -111,7 +111,7 @@ const UnicodeLookup kbdpo[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdpo_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdpo_deadkeys[] = 
 {
   {0x00a8, 0x00a8, 0x2f | MOD_ALTGR},	// ¨  accent
   {0x00e4, 0x0061, 0x2f | MOD_ALTGR},	// ä Small A Diaeresis

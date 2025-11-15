@@ -2,7 +2,7 @@
 
 // United States-Dvorak
 
-const UnicodeLookup kbddv[] PROGMEM = 
+const UnicodeLookup kbddv[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbddv[] PROGMEM =
   {0x007a, 0x38},	// Latin Small Letter Z
 };
 
-const DeadkeyLookup kbddv_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbddv_deadkeys[] = 
 {
 };
 

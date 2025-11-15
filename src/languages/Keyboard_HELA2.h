@@ -2,7 +2,7 @@
 
 // Greek (220) Latin
 
-const UnicodeLookup kbdhela2[] PROGMEM = 
+const UnicodeLookup kbdhela2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -116,7 +116,7 @@ const UnicodeLookup kbdhela2[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdhela2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhela2_deadkeys[] = 
 {
   {0x0385, 0x0385, 0x34 | MOD_SHIFT},	// ΅  accent
   {0x00a8, 0x00a8, 0x34},	// ¨  accent

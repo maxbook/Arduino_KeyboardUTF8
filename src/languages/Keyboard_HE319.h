@@ -2,7 +2,7 @@
 
 // Greek (319)
 
-const UnicodeLookup kbdhe319[] PROGMEM = 
+const UnicodeLookup kbdhe319[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -106,7 +106,7 @@ const UnicodeLookup kbdhe319[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdhe319_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhe319_deadkeys[] = 
 {
   {0x0385, 0x0385, 0x33 | MOD_ALTGR},	// ΅  accent
   {0x0390, 0x0390, 0x33 | MOD_ALTGR},	// ΐ  accent

@@ -2,7 +2,7 @@
 
 // Georgian (MES)
 
-const UnicodeLookup kbdgeome[] PROGMEM = 
+const UnicodeLookup kbdgeome[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -129,7 +129,7 @@ const UnicodeLookup kbdgeome[] PROGMEM =
   {0x10eb, 0x38},	// Georgian Letter Jil
 };
 
-const DeadkeyLookup kbdgeome_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgeome_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Sinhala - Wij 9
 
-const UnicodeLookup kbdsw09[] PROGMEM = 
+const UnicodeLookup kbdsw09[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -150,7 +150,7 @@ const UnicodeLookup kbdsw09[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdsw09_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsw09_deadkeys[] = 
 {
 };
 

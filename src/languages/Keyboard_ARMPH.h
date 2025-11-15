@@ -2,7 +2,7 @@
 
 // Armenian Phonetic
 
-const UnicodeLookup kbdarmph[] PROGMEM = 
+const UnicodeLookup kbdarmph[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -139,7 +139,7 @@ const UnicodeLookup kbdarmph[] PROGMEM =
   {0x2024, 0x37},	// One Dot Leader
 };
 
-const DeadkeyLookup kbdarmph_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdarmph_deadkeys[] = 
 {
 };
 

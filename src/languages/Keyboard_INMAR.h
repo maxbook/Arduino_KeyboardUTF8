@@ -2,7 +2,7 @@
 
 // Marathi
 
-const UnicodeLookup kbdinmar[] PROGMEM = 
+const UnicodeLookup kbdinmar[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -132,7 +132,7 @@ const UnicodeLookup kbdinmar[] PROGMEM =
   {0x092f, 0x38},	// Devanagari Letter Ya
 };
 
-const DeadkeyLookup kbdinmar_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinmar_deadkeys[] = 
 {
 };
 

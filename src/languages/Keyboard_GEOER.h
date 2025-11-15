@@ -2,7 +2,7 @@
 
 // Georgian (Ergonomic)
 
-const UnicodeLookup kbdgeoer[] PROGMEM = 
+const UnicodeLookup kbdgeoer[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -114,7 +114,7 @@ const UnicodeLookup kbdgeoer[] PROGMEM =
   {0x10ec, 0x38},	// Georgian Letter Cil
 };
 
-const DeadkeyLookup kbdgeoer_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgeoer_deadkeys[] = 
 {
 };
 

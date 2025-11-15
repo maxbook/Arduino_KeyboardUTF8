@@ -2,7 +2,7 @@
 
 // Georgian (Legacy)
 
-const UnicodeLookup kbdgeo[] PROGMEM = 
+const UnicodeLookup kbdgeo[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -78,7 +78,7 @@ const UnicodeLookup kbdgeo[] PROGMEM =
   {0x0028, 0x64},	// Left Parenthesis
 };
 
-const DeadkeyLookup kbdgeo_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgeo_deadkeys[] = 
 {
 };
 

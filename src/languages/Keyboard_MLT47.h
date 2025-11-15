@@ -2,7 +2,7 @@
 
 // Maltese 47-Key
 
-const UnicodeLookup kbdmlt47[] PROGMEM = 
+const UnicodeLookup kbdmlt47[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -124,7 +124,7 @@ const UnicodeLookup kbdmlt47[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdmlt47_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmlt47_deadkeys[] = 
 {
 };
 

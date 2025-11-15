@@ -2,7 +2,7 @@
 
 // Ol Chiki
 
-const UnicodeLookup kbdolch[] PROGMEM = 
+const UnicodeLookup kbdolch[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -61,7 +61,7 @@ const UnicodeLookup kbdolch[] PROGMEM =
   {0x1c6d, 0x38},	// Ol Chiki Letter Uy
 };
 
-const DeadkeyLookup kbdolch_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdolch_deadkeys[] = 
 {
 };
 

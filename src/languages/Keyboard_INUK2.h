@@ -2,7 +2,7 @@
 
 // Inuktitut - Naqittaut
 
-const UnicodeLookup kbdinuk2[] PROGMEM = 
+const UnicodeLookup kbdinuk2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -169,7 +169,7 @@ const UnicodeLookup kbdinuk2[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdinuk2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinuk2_deadkeys[] = 
 {
   {0x1404, 0x1404, 0x30},	// ᐄ  accent
   {0x1406, 0x1406, 0x30},	// ᐆ  accent

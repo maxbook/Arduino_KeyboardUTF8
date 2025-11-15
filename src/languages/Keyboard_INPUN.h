@@ -2,7 +2,7 @@
 
 // Punjabi
 
-const UnicodeLookup kbdinpun[] PROGMEM = 
+const UnicodeLookup kbdinpun[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -103,7 +103,7 @@ const UnicodeLookup kbdinpun[] PROGMEM =
   {0x0a2f, 0x38},	// Gurmukhi Letter Ya
 };
 
-const DeadkeyLookup kbdinpun_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinpun_deadkeys[] = 
 {
 };
 

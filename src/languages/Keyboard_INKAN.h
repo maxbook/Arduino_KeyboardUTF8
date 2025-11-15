@@ -2,7 +2,7 @@
 
 // Kannada
 
-const UnicodeLookup kbdinkan[] PROGMEM = 
+const UnicodeLookup kbdinkan[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -107,7 +107,7 @@ const UnicodeLookup kbdinkan[] PROGMEM =
   {0x0caf, 0x38},	// Kannada Letter Ya
 };
 
-const DeadkeyLookup kbdinkan_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinkan_deadkeys[] = 
 {
 };
 

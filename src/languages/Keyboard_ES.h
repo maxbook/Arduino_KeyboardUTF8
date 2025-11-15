@@ -2,7 +2,7 @@
 
 // Spanish Variation
 
-const UnicodeLookup kbdes[] PROGMEM = 
+const UnicodeLookup kbdes[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -121,7 +121,7 @@ const UnicodeLookup kbdes[] PROGMEM =
   {0x003d, 0x38},	// Equals Sign
 };
 
-const DeadkeyLookup kbdes_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdes_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x2e | MOD_ALTGR},	// ~  accent
   {0x00e3, 0x0061, 0x2e | MOD_ALTGR},	// ã Small A Tilde

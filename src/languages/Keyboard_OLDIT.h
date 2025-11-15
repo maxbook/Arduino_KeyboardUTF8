@@ -2,7 +2,7 @@
 
 // Old Italic
 
-const UnicodeLookup kbdoldit[] PROGMEM = 
+const UnicodeLookup kbdoldit[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -17,7 +17,7 @@ const UnicodeLookup kbdoldit[] PROGMEM =
   {0x00b7, 0x37},	// Middle Dot
 };
 
-const DeadkeyLookup kbdoldit_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdoldit_deadkeys[] = 
 {
 };
 

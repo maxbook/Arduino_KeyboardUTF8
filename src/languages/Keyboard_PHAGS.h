@@ -2,7 +2,7 @@
 
 // Phags-pa
 
-const UnicodeLookup kbdphags[] PROGMEM = 
+const UnicodeLookup kbdphags[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -107,7 +107,7 @@ const UnicodeLookup kbdphags[] PROGMEM =
   {0x1805, 0x38},	// Mongolian Four Dots
 };
 
-const DeadkeyLookup kbdphags_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdphags_deadkeys[] = 
 {
 };
 

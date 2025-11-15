@@ -2,7 +2,7 @@
 
 // Myanmar (Phonetic order)
 
-const UnicodeLookup kbdmyan_1[] PROGMEM = 
+const UnicodeLookup kbdmyan_1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -186,7 +186,7 @@ const UnicodeLookup kbdmyan_1[] PROGMEM =
   {0x102c, 0x10},	// Myanmar Vowel Sign Aa
 };
 
-const DeadkeyLookup kbdmyan_1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmyan_1_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Divehi Typewriter
 
-const UnicodeLookup kbddiv2[] PROGMEM = 
+const UnicodeLookup kbddiv2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -112,7 +112,7 @@ const UnicodeLookup kbddiv2[] PROGMEM =
   {0x07af, 0x38},	// Thaana Oaboafili
 };
 
-const DeadkeyLookup kbddiv2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbddiv2_deadkeys[] = 
 {
 };
 

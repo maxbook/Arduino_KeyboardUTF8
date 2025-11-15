@@ -2,7 +2,7 @@
 
 // Hungarian 101-key
 
-const UnicodeLookup kbdhu1[] PROGMEM = 
+const UnicodeLookup kbdhu1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -142,7 +142,7 @@ const UnicodeLookup kbdhu1[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdhu1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhu1_deadkeys[] = 
 {
 };
 

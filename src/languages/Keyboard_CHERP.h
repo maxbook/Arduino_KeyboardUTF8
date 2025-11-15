@@ -2,7 +2,7 @@
 
 // Cherokee Phonetic
 
-const UnicodeLookup kbdcherp[] PROGMEM = 
+const UnicodeLookup kbdcherp[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -59,7 +59,7 @@ const UnicodeLookup kbdcherp[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdcherp_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdcherp_deadkeys[] = 
 {
   {0x13c6, 0x13c6, 0x14},	// Ꮖ  accent
   {0x13c7, 0x13c7, 0x14},	// Ꮗ  accent

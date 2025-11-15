@@ -2,7 +2,7 @@
 
 // Sinhala
 
-const UnicodeLookup kbdsn1[] PROGMEM = 
+const UnicodeLookup kbdsn1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -124,7 +124,7 @@ const UnicodeLookup kbdsn1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdsn1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsn1_deadkeys[] = 
 {
 };
 

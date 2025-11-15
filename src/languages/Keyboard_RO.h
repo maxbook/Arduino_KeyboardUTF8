@@ -2,7 +2,7 @@
 
 // Romanian (Legacy)
 
-const UnicodeLookup kbdro[] PROGMEM = 
+const UnicodeLookup kbdro[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -124,7 +124,7 @@ const UnicodeLookup kbdro[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdro_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdro_deadkeys[] = 
 {
   {0x02c7, 0x02c7, 0x1f | MOD_ALTGR},	// ˇ  accent
   {0x010d, 0x0063, 0x1f | MOD_ALTGR},	// č Small C Caron

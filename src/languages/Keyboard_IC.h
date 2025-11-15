@@ -2,7 +2,7 @@
 
 // Icelandic
 
-const UnicodeLookup kbdic[] PROGMEM = 
+const UnicodeLookup kbdic[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -114,7 +114,7 @@ const UnicodeLookup kbdic[] PROGMEM =
   {0x00fe, 0x38},	// Latin Small Letter Thorn (Icelandic)
 };
 
-const DeadkeyLookup kbdic_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdic_deadkeys[] = 
 {
   {0x005e, 0x005e, 0x34 | MOD_ALTGR},	// ^  accent
   {0x00e2, 0x0061, 0x34 | MOD_ALTGR},	// â Small A Circumflex

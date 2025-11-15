@@ -2,7 +2,7 @@
 
 // Sesotho sa Leboa
 
-const UnicodeLookup kbdnso_1[] PROGMEM = 
+const UnicodeLookup kbdnso_1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -162,7 +162,7 @@ const UnicodeLookup kbdnso_1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdnso_1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdnso_1_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x35 | MOD_SHIFT},	// ~  accent
   {0x00e3, 0x0061, 0x35 | MOD_SHIFT},	// ã Small A Tilde

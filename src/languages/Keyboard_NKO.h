@@ -2,7 +2,7 @@
 
 // N'Ko
 
-const UnicodeLookup kbdnko[] PROGMEM = 
+const UnicodeLookup kbdnko[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -95,7 +95,7 @@ const UnicodeLookup kbdnko[] PROGMEM =
   {0x07de, 0x38},	// Nko Letter Ka
 };
 
-const DeadkeyLookup kbdnko_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdnko_deadkeys[] = 
 {
 };
 

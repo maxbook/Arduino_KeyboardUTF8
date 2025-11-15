@@ -2,7 +2,7 @@
 
 // German (IBM)
 
-const UnicodeLookup kbdgr1[] PROGMEM = 
+const UnicodeLookup kbdgr1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -117,7 +117,7 @@ const UnicodeLookup kbdgr1[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdgr1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgr1_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x2e | MOD_SHIFT},	// `  accent
   {0x00e0, 0x0061, 0x2e | MOD_SHIFT},	// à Small A Grave

@@ -2,7 +2,7 @@
 
 // Syriac
 
-const UnicodeLookup kbdsyr1[] PROGMEM = 
+const UnicodeLookup kbdsyr1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -141,7 +141,7 @@ const UnicodeLookup kbdsyr1[] PROGMEM =
   {0x0707, 0x38},	// Syriac Colon Skewed Right
 };
 
-const DeadkeyLookup kbdsyr1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsyr1_deadkeys[] = 
 {
 };
 

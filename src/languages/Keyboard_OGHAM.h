@@ -2,7 +2,7 @@
 
 // Ogham
 
-const UnicodeLookup kbdogham[] PROGMEM = 
+const UnicodeLookup kbdogham[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -40,7 +40,7 @@ const UnicodeLookup kbdogham[] PROGMEM =
   {0x168b, 0x10},	// Ogham Letter Muin
 };
 
-const DeadkeyLookup kbdogham_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdogham_deadkeys[] = 
 {
 };
 

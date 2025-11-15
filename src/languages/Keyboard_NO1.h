@@ -2,7 +2,7 @@
 
 // Norwegian with Sami
 
-const UnicodeLookup kbdno1[] PROGMEM = 
+const UnicodeLookup kbdno1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -149,7 +149,7 @@ const UnicodeLookup kbdno1[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdno1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdno1_deadkeys[] = 
 {
   {0x00b4, 0x00b4, 0x2e | MOD_ALTGR},	// ´  accent
   {0x00e1, 0x0061, 0x2e | MOD_ALTGR},	// á Small A Acute

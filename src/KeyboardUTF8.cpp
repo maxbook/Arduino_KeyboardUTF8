@@ -13,17 +13,23 @@ KeyboardUTF8::KeyboardUTF8(const UnicodeLookup *ut, const size_t uts, const Dead
   {
     HexKeycodes[i] = FindKeycode("0123456789abcdef"[i]) | MOD_ALT;
   }
+}
 
+void KeyboardUTF8::begin()
+{
+  USB.begin();
+  keyboard.begin();
 }
 
 uint16_t KeyboardUTF8::FindKeycode(uint32_t codepoint)
 {
   // Find the keycode (with modifiers) for the codepoint
+  // ESP32 doesn't need PROGMEM, data is stored in flash by default
   for (size_t i = 0; i < UnicodeTableSize; i++)
   {
-    if (pgm_read_word(&UnicodeTable[i].UnicodeCodepoint) == codepoint)
+    if (UnicodeTable[i].UnicodeCodepoint == codepoint)
     {
-      return pgm_read_word(&UnicodeTable[i].USBKeycodeWithModifiers);
+      return UnicodeTable[i].USBKeycodeWithModifiers;
     }
   }
   return 0;
@@ -31,31 +37,32 @@ uint16_t KeyboardUTF8::FindKeycode(uint32_t codepoint)
 
 size_t KeyboardUTF8::writeKeycode(uint8_t keycode)
 {
-  return Keyboard.write(keycode + 136);
+  // TinyUSB uses write() method directly with keycode + 136 offset
+  return keyboard.write(keycode + 136);
 }
 
 size_t KeyboardUTF8::writeKeycodeWithModifiers(uint16_t keycode)
 {
   if (keycode & MOD_SHIFT)
-    Keyboard.press(KEY_LEFT_SHIFT);
+    keyboard.press(KEY_LEFT_SHIFT);
 
   if (keycode & MOD_ALTGR)
-    Keyboard.press(KEY_RIGHT_ALT);
+    keyboard.press(KEY_RIGHT_ALT);
 
   if (keycode & MOD_ALT)
-    Keyboard.press(KEY_LEFT_ALT);
+    keyboard.press(KEY_LEFT_ALT);
 
   return writeKeycode(keycode & 0xFF);
 }
 
 size_t KeyboardUTF8::writeUnicodeHex(uint32_t codepoint)
 {
-  Keyboard.press(KEY_LEFT_ALT);
+  keyboard.press(KEY_LEFT_ALT);
   writeKeycodeWithModifiers(HexKeycodes[(codepoint >> 12) & 0x0F]);
   writeKeycodeWithModifiers(HexKeycodes[(codepoint >>  8) & 0x0F]);
   writeKeycodeWithModifiers(HexKeycodes[(codepoint >>  4) & 0x0F]);
   writeKeycodeWithModifiers(HexKeycodes[(codepoint >>  0) & 0x0F]);
-  Keyboard.release(KEY_LEFT_ALT);
+  keyboard.release(KEY_LEFT_ALT);
   return 1;
 }
 
@@ -73,16 +80,17 @@ size_t KeyboardUTF8::writeUnicode(uint32_t codepoint)
   // produced with a deadkey.
   for (size_t i = 0; i < DeadkeyTableSize; i++)
   {
-    if (pgm_read_word(&DeadkeyTable[i].UnicodeCodepoint) == codepoint)
+    // ESP32 doesn't need PROGMEM
+    if (DeadkeyTable[i].UnicodeCodepoint == codepoint)
     {
       // We have a matching deadkey. We have a keycode for the deadkey so
       // now we look up the keycode for the 'base' (unaccented) key.
-      uint32_t baseCodepoint = pgm_read_word(&DeadkeyTable[i].BaseKeyCodepoint);
+      uint32_t baseCodepoint = DeadkeyTable[i].BaseKeyCodepoint;
 
       uint16_t baseKeycode;
       // Is the base codepoint the same?
       if (baseCodepoint == codepoint)
-        baseKeycode = pgm_read_word(&DeadkeyTable[i].DeadkeyKeycodeWithModifiers);
+        baseKeycode = DeadkeyTable[i].DeadkeyKeycodeWithModifiers;
       else
         baseKeycode = FindKeycode(baseCodepoint);
         
@@ -90,7 +98,7 @@ size_t KeyboardUTF8::writeUnicode(uint32_t codepoint)
       {
         // We have a match for the base key codepoint.  Send the deadkey and basekey
         size_t keys = 0;
-        keys += writeKeycodeWithModifiers(pgm_read_word(&DeadkeyTable[i].DeadkeyKeycodeWithModifiers));
+        keys += writeKeycodeWithModifiers(DeadkeyTable[i].DeadkeyKeycodeWithModifiers);
         keys += writeKeycodeWithModifiers(baseKeycode);
         return keys;
       }

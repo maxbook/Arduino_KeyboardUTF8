@@ -2,7 +2,7 @@
 
 // Devanagari - INSCRIPT
 
-const UnicodeLookup kbdindev[] PROGMEM = 
+const UnicodeLookup kbdindev[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -130,7 +130,7 @@ const UnicodeLookup kbdindev[] PROGMEM =
   {0x092f, 0x38},	// Devanagari Letter Ya
 };
 
-const DeadkeyLookup kbdindev_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdindev_deadkeys[] = 
 {
 };
 

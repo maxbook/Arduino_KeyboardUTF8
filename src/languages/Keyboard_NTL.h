@@ -2,7 +2,7 @@
 
 // New Tai Lue
 
-const UnicodeLookup kbdntl[] PROGMEM = 
+const UnicodeLookup kbdntl[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -123,7 +123,7 @@ const UnicodeLookup kbdntl[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdntl_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdntl_deadkeys[] = 
 {
 };
 

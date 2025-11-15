@@ -2,7 +2,7 @@
 
 // Bulgarian
 
-const UnicodeLookup kbdbulg[] PROGMEM = 
+const UnicodeLookup kbdbulg[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -106,7 +106,7 @@ const UnicodeLookup kbdbulg[] PROGMEM =
   {0x0431, 0x38},	// Cyrillic Small Letter Be
 };
 
-const DeadkeyLookup kbdbulg_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdbulg_deadkeys[] = 
 {
 };
 

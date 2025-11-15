@@ -2,7 +2,7 @@
 
 // Sami Extended Finland-Sweden
 
-const UnicodeLookup kbdsmsfi[] PROGMEM = 
+const UnicodeLookup kbdsmsfi[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -148,7 +148,7 @@ const UnicodeLookup kbdsmsfi[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdsmsfi_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsmsfi_deadkeys[] = 
 {
   {0x005e, 0x005e, 0x2f | (MOD_SHIFT | MOD_ALTGR)},	// ^  accent
   {0x00e2, 0x0061, 0x2f | (MOD_SHIFT | MOD_ALTGR)},	// â Small A Circumflex

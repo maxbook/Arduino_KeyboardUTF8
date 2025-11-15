@@ -2,7 +2,7 @@
 
 // Thai Kedmanee
 
-const UnicodeLookup kbdth0[] PROGMEM = 
+const UnicodeLookup kbdth0[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdth0[] PROGMEM =
   {0x0e1d, 0x38},	// Thai Character Fo Fa
 };
 
-const DeadkeyLookup kbdth0_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdth0_deadkeys[] = 
 {
 };
 

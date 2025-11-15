@@ -2,7 +2,7 @@
 
 // Yoruba
 
-const UnicodeLookup kbdyba[] PROGMEM = 
+const UnicodeLookup kbdyba[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -109,7 +109,7 @@ const UnicodeLookup kbdyba[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdyba_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdyba_deadkeys[] = 
 {
   {0x005b, 0x005b, 0x2f},	// [  accent
   {0x00e0, 0x0061, 0x2f},	// à Small A Grave

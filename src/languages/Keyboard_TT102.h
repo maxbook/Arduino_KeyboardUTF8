@@ -2,7 +2,7 @@
 
 // Tatar
 
-const UnicodeLookup kbdtt102[] PROGMEM = 
+const UnicodeLookup kbdtt102[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -132,7 +132,7 @@ const UnicodeLookup kbdtt102[] PROGMEM =
   {0x002e, 0x38},	// Full Stop
 };
 
-const DeadkeyLookup kbdtt102_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtt102_deadkeys[] = 
 {
 };
 

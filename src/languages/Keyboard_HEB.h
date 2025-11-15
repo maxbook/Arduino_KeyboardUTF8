@@ -2,7 +2,7 @@
 
 // Hebrew
 
-const UnicodeLookup kbdheb[] PROGMEM = 
+const UnicodeLookup kbdheb[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -111,7 +111,7 @@ const UnicodeLookup kbdheb[] PROGMEM =
   {0x002e, 0x38},	// Full Stop
 };
 
-const DeadkeyLookup kbdheb_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdheb_deadkeys[] = 
 {
 };
 

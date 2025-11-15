@@ -2,7 +2,7 @@
 
 // Tifinagh (Extended)
 
-const UnicodeLookup kbdtifi2[] PROGMEM = 
+const UnicodeLookup kbdtifi2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -117,7 +117,7 @@ const UnicodeLookup kbdtifi2[] PROGMEM =
   {0x0021, 0x38},	// Exclamation Mark
 };
 
-const DeadkeyLookup kbdtifi2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtifi2_deadkeys[] = 
 {
 };
 

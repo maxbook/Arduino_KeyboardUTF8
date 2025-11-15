@@ -2,7 +2,7 @@
 
 // Lisu (Basic)
 
-const UnicodeLookup kbdlisub[] PROGMEM = 
+const UnicodeLookup kbdlisub[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -98,7 +98,7 @@ const UnicodeLookup kbdlisub[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdlisub_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlisub_deadkeys[] = 
 {
 };
 

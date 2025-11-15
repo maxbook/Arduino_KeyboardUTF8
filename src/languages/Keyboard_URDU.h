@@ -2,7 +2,7 @@
 
 // Urdu
 
-const UnicodeLookup kbdurdu[] PROGMEM = 
+const UnicodeLookup kbdurdu[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdurdu[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdurdu_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdurdu_deadkeys[] = 
 {
 };
 

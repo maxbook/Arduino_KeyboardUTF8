@@ -2,7 +2,7 @@
 
 // Romanian (Standard)
 
-const UnicodeLookup kbdrost[] PROGMEM = 
+const UnicodeLookup kbdrost[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -129,7 +129,7 @@ const UnicodeLookup kbdrost[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdrost_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdrost_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x1e | MOD_ALTGR},	// ~  accent
   {0x02c7, 0x02c7, 0x1f | MOD_ALTGR},	// ˇ  accent

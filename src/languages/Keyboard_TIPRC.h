@@ -2,7 +2,7 @@
 
 // Tibetan (PRC)
 
-const UnicodeLookup kbdtiprc[] PROGMEM = 
+const UnicodeLookup kbdtiprc[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -149,7 +149,7 @@ const UnicodeLookup kbdtiprc[] PROGMEM =
   {0x0f49, 0x38},	// Tibetan Letter Nya
 };
 
-const DeadkeyLookup kbdtiprc_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtiprc_deadkeys[] = 
 {
   {0x0f39, 0x0f39, 0x10 | MOD_SHIFT},	// ༹  accent
   {0x0f4d, 0x0f4d, 0x10 | MOD_SHIFT},	// ཌྷ  accent

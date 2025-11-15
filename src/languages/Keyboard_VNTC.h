@@ -2,7 +2,7 @@
 
 // Vietnamese
 
-const UnicodeLookup kbdvntc[] PROGMEM = 
+const UnicodeLookup kbdvntc[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -125,7 +125,7 @@ const UnicodeLookup kbdvntc[] PROGMEM =
   {0x01a1, 0x30},	// Latin Small Letter O With Horn
 };
 
-const DeadkeyLookup kbdvntc_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdvntc_deadkeys[] = 
 {
 };
 

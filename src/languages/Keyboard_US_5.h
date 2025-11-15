@@ -2,7 +2,7 @@
 
 // Chinese (Traditional, Hong Kong S.A.R.) - US
 
-const UnicodeLookup kbdus_5[] PROGMEM = 
+const UnicodeLookup kbdus_5[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdus_5[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdus_5_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdus_5_deadkeys[] = 
 {
 };
 

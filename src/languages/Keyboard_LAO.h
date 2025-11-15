@@ -2,7 +2,7 @@
 
 // Lao
 
-const UnicodeLookup kbdlao[] PROGMEM = 
+const UnicodeLookup kbdlao[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -107,7 +107,7 @@ const UnicodeLookup kbdlao[] PROGMEM =
   {0x0e9d, 0x38},	// Lao Letter Fo Tam
 };
 
-const DeadkeyLookup kbdlao_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlao_deadkeys[] = 
 {
 };
 

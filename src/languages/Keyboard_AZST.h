@@ -2,7 +2,7 @@
 
 // Azerbaijani (Standard)
 
-const UnicodeLookup kbdazst[] PROGMEM = 
+const UnicodeLookup kbdazst[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdazst[] PROGMEM =
   {0x002e, 0x38},	// Full Stop
 };
 
-const DeadkeyLookup kbdazst_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdazst_deadkeys[] = 
 {
 };
 

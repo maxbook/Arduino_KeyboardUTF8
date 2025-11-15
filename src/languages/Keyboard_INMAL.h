@@ -2,7 +2,7 @@
 
 // Malayalam
 
-const UnicodeLookup kbdinmal[] PROGMEM = 
+const UnicodeLookup kbdinmal[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -114,7 +114,7 @@ const UnicodeLookup kbdinmal[] PROGMEM =
   {0x0d2f, 0x38},	// Malayalam Letter Ya
 };
 
-const DeadkeyLookup kbdinmal_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinmal_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Slovak
 
-const UnicodeLookup kbdsl[] PROGMEM = 
+const UnicodeLookup kbdsl[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -127,7 +127,7 @@ const UnicodeLookup kbdsl[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdsl_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsl_deadkeys[] = 
 {
   {0x02c7, 0x02c7, 0x2e | MOD_SHIFT},	// ˇ  accent
   {0x010d, 0x0063, 0x2e | MOD_SHIFT},	// č Small C Caron

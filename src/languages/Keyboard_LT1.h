@@ -2,7 +2,7 @@
 
 // Lithuanian
 
-const UnicodeLookup kbdlt1[] PROGMEM = 
+const UnicodeLookup kbdlt1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -124,7 +124,7 @@ const UnicodeLookup kbdlt1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdlt1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlt1_deadkeys[] = 
 {
 };
 

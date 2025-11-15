@@ -2,7 +2,7 @@
 
 // Bulgarian (Phonetic Traditional)
 
-const UnicodeLookup kbdbgph1[] PROGMEM = 
+const UnicodeLookup kbdbgph1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -107,7 +107,7 @@ const UnicodeLookup kbdbgph1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdbgph1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdbgph1_deadkeys[] = 
 {
 };
 

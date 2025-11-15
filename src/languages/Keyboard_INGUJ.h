@@ -2,7 +2,7 @@
 
 // Gujarati
 
-const UnicodeLookup kbdinguj[] PROGMEM = 
+const UnicodeLookup kbdinguj[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -106,7 +106,7 @@ const UnicodeLookup kbdinguj[] PROGMEM =
   {0x0aaf, 0x38},	// Gujarati Letter Ya
 };
 
-const DeadkeyLookup kbdinguj_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinguj_deadkeys[] = 
 {
 };
 
