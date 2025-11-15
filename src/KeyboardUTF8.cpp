@@ -7,6 +7,10 @@ KeyboardUTF8::KeyboardUTF8(const UnicodeLookup *ut, const size_t uts, const Dead
   DeadkeyTableSize(dts)
 {
   UTF8State = UTF8_Idle;
+  
+#ifdef KEYBOARD_UTF8_USE_TINYUSB
+  keyboard = nullptr;
+#endif
 
   // Fill in the keycocdes for hex digits
   for (int i = 0; i < 16; i++)
@@ -21,10 +25,18 @@ uint16_t KeyboardUTF8::FindKeycode(uint32_t codepoint)
   // Find the keycode (with modifiers) for the codepoint
   for (size_t i = 0; i < UnicodeTableSize; i++)
   {
+#ifdef KEYBOARD_UTF8_USE_TINYUSB
+    // ESP32 doesn't need PROGMEM, data is in flash by default
+    if (UnicodeTable[i].UnicodeCodepoint == codepoint)
+    {
+      return UnicodeTable[i].USBKeycodeWithModifiers;
+    }
+#else
     if (pgm_read_word(&UnicodeTable[i].UnicodeCodepoint) == codepoint)
     {
       return pgm_read_word(&UnicodeTable[i].USBKeycodeWithModifiers);
     }
+#endif
   }
   return 0;
 }

@@ -1,7 +1,15 @@
 #pragma once
 
 #include <Arduino.h>  // This includes the Print class
-#include <Keyboard.h>
+
+// Platform detection for ESP32S3 with TinyUSB
+#if defined(ARDUINO_ARCH_ESP32) && defined(USE_TINYUSB)
+  #include "USB.h"
+  #include "USBHID.h"
+  #define KEYBOARD_UTF8_USE_TINYUSB
+#else
+  #include <Keyboard.h>
+#endif
 
 //#define KEY_LEFT_CTRL   0x80
 //#define KEY_LEFT_SHIFT    0x81
@@ -37,7 +45,12 @@ class KeyboardUTF8 : public Print
     size_t writeUnicode(uint32_t codepoint);
     size_t writeUnicodeHex(uint32_t codepoint);  // Hold 'ALT' and type four hex digits
     size_t write(uint8_t);
+    
+#ifdef KEYBOARD_UTF8_USE_TINYUSB
+    void begin();  // TinyUSB needs custom initialization
+#else
     void begin() {Keyboard.begin();}
+#endif
 
   private:
     const UnicodeLookup *UnicodeTable;
@@ -59,4 +72,8 @@ class KeyboardUTF8 : public Print
     } UTF8State;
     uint32_t UnicodeCodepoint;  // Accumulated Unicode bits
     uint16_t HexKeycodes[16];  // Keycodes and modifiers for typing hex
+    
+#ifdef KEYBOARD_UTF8_USE_TINYUSB
+    USBHIDKeyboard *keyboard;  // Pointer to TinyUSB keyboard instance
+#endif
 };
