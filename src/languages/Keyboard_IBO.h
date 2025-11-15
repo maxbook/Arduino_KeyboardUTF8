@@ -2,7 +2,7 @@
 
 // Igbo
 
-const UnicodeLookup kbdibo[] PROGMEM = 
+const UnicodeLookup kbdibo[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -116,7 +116,7 @@ const UnicodeLookup kbdibo[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdibo_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdibo_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x35 | MOD_SHIFT},	// ~  accent
   {0x00e1, 0x0061, 0x35 | MOD_SHIFT},	// á Small A Acute

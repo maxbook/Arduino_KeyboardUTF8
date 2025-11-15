@@ -2,7 +2,7 @@
 
 // Dzongkha
 
-const UnicodeLookup kbddzo[] PROGMEM = 
+const UnicodeLookup kbddzo[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -188,7 +188,7 @@ const UnicodeLookup kbddzo[] PROGMEM =
   {0x0f68, 0x38},	// Tibetan Letter A
 };
 
-const DeadkeyLookup kbddzo_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbddzo_deadkeys[] = 
 {
 };
 

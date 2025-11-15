@@ -2,7 +2,7 @@
 
 // Russian (Typewriter)
 
-const UnicodeLookup kbdru1[] PROGMEM = 
+const UnicodeLookup kbdru1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -106,7 +106,7 @@ const UnicodeLookup kbdru1[] PROGMEM =
   {0x0451, 0x38},	// Cyrillic Small Letter Io
 };
 
-const DeadkeyLookup kbdru1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdru1_deadkeys[] = 
 {
 };
 

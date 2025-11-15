@@ -2,7 +2,7 @@
 
 // Telugu
 
-const UnicodeLookup kbdintel[] PROGMEM = 
+const UnicodeLookup kbdintel[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -108,7 +108,7 @@ const UnicodeLookup kbdintel[] PROGMEM =
   {0x0c2f, 0x38},	// Telugu Letter Ya
 };
 
-const DeadkeyLookup kbdintel_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdintel_deadkeys[] = 
 {
 };
 

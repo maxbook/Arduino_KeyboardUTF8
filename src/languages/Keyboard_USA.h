@@ -2,7 +2,7 @@
 
 // US English Table for IBM Arabic 238_L
 
-const UnicodeLookup kbdusa[] PROGMEM = 
+const UnicodeLookup kbdusa[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdusa[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdusa_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdusa_deadkeys[] = 
 {
 };
 

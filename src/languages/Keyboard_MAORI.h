@@ -2,7 +2,7 @@
 
 // Maori
 
-const UnicodeLookup kbdmaori[] PROGMEM = 
+const UnicodeLookup kbdmaori[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -104,7 +104,7 @@ const UnicodeLookup kbdmaori[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdmaori_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmaori_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x35},	// `  accent
   {0x007e, 0x007e, 0x35},	// ~  accent

@@ -2,7 +2,7 @@
 
 // Polish (Programmers)
 
-const UnicodeLookup kbdpl1[] PROGMEM = 
+const UnicodeLookup kbdpl1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -123,7 +123,7 @@ const UnicodeLookup kbdpl1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdpl1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdpl1_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x35 | MOD_SHIFT},	// ~  accent
   {0x0105, 0x0061, 0x35 | MOD_SHIFT},	// ą Small A Ogonek

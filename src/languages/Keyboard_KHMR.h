@@ -2,7 +2,7 @@
 
 // Khmer
 
-const UnicodeLookup kbdkhmr[] PROGMEM = 
+const UnicodeLookup kbdkhmr[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -185,7 +185,7 @@ const UnicodeLookup kbdkhmr[] PROGMEM =
   {0x200b, 0x38},	// Zero Width Space
 };
 
-const DeadkeyLookup kbdkhmr_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdkhmr_deadkeys[] = 
 {
 };
 

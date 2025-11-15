@@ -2,7 +2,7 @@
 
 // Macedonian (FYROM) - Standard
 
-const UnicodeLookup kbdmacst[] PROGMEM = 
+const UnicodeLookup kbdmacst[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -123,7 +123,7 @@ const UnicodeLookup kbdmacst[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdmacst_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmacst_deadkeys[] = 
 {
 };
 

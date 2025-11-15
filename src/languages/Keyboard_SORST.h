@@ -2,7 +2,7 @@
 
 // Sorbian Standard (Legacy)
 
-const UnicodeLookup kbdsorst[] PROGMEM = 
+const UnicodeLookup kbdsorst[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -120,7 +120,7 @@ const UnicodeLookup kbdsorst[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdsorst_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsorst_deadkeys[] = 
 {
   {0x0307, 0x0307, 0x35 | MOD_SHIFT},	// ̇  accent
   {0x0117, 0x0065, 0x35 | MOD_SHIFT},	// ė Small E Dot Above

@@ -2,7 +2,7 @@
 
 // Divehi Phonetic
 
-const UnicodeLookup kbddiv1[] PROGMEM = 
+const UnicodeLookup kbddiv1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -111,7 +111,7 @@ const UnicodeLookup kbddiv1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbddiv1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbddiv1_deadkeys[] = 
 {
 };
 

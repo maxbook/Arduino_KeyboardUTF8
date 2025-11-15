@@ -2,7 +2,7 @@
 
 // Czech (QWERTY)
 
-const UnicodeLookup kbdcz1[] PROGMEM = 
+const UnicodeLookup kbdcz1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -122,7 +122,7 @@ const UnicodeLookup kbdcz1[] PROGMEM =
   {0x002e, 0x37},	// Full Stop
 };
 
-const DeadkeyLookup kbdcz1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdcz1_deadkeys[] = 
 {
   {0x005e, 0x005e, 0x34 | (MOD_SHIFT | MOD_ALTGR)},	// ^  accent
   {0x00e2, 0x0061, 0x34 | (MOD_SHIFT | MOD_ALTGR)},	// â Small A Circumflex

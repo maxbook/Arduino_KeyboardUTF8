@@ -2,7 +2,7 @@
 
 // Swedish with Sami
 
-const UnicodeLookup kbdfi1_2[] PROGMEM = 
+const UnicodeLookup kbdfi1_2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -150,7 +150,7 @@ const UnicodeLookup kbdfi1_2[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdfi1_2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdfi1_2_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x30 | MOD_ALTGR},	// ~  accent
   {0x00e3, 0x0061, 0x30 | MOD_ALTGR},	// ã Small A Tilde

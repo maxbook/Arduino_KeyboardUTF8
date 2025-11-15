@@ -2,7 +2,7 @@
 
 // Latvian
 
-const UnicodeLookup kbdlv[] PROGMEM = 
+const UnicodeLookup kbdlv[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -135,7 +135,7 @@ const UnicodeLookup kbdlv[] PROGMEM =
   {0x013c, 0x38},	// Latin Small Letter L With Cedilla
 };
 
-const DeadkeyLookup kbdlv_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlv_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x22 | (MOD_SHIFT | MOD_ALTGR)},	// ~  accent
   {0x00f5, 0x006f, 0x22 | (MOD_SHIFT | MOD_ALTGR)},	// õ Small O Tilde

@@ -2,7 +2,7 @@
 
 // Uyghur
 
-const UnicodeLookup kbdughr1[] PROGMEM = 
+const UnicodeLookup kbdughr1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -85,7 +85,7 @@ const UnicodeLookup kbdughr1[] PROGMEM =
   {0x0626, 0x38},	// Arabic Letter Yeh With Hamza Above
 };
 
-const DeadkeyLookup kbdughr1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdughr1_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Sora
 
-const UnicodeLookup kbdsora[] PROGMEM = 
+const UnicodeLookup kbdsora[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -46,7 +46,7 @@ const UnicodeLookup kbdsora[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdsora_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsora_deadkeys[] = 
 {
 };
 

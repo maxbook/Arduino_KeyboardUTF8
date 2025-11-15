@@ -2,7 +2,7 @@
 
 // Kazakh
 
-const UnicodeLookup kbdkaz[] PROGMEM = 
+const UnicodeLookup kbdkaz[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -106,7 +106,7 @@ const UnicodeLookup kbdkaz[] PROGMEM =
   {0x2116, 0x38},	// Numero Sign
 };
 
-const DeadkeyLookup kbdkaz_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdkaz_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Canadian Multilingual Standard
 
-const UnicodeLookup kbdcan[] PROGMEM = 
+const UnicodeLookup kbdcan[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -118,7 +118,7 @@ const UnicodeLookup kbdcan[] PROGMEM =
   {0x00e9, 0x38},	// Latin Small Letter E With Acute
 };
 
-const DeadkeyLookup kbdcan_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdcan_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x2f | MOD_ALTGR},	// `  accent
   {0x00e0, 0x0061, 0x2f | MOD_ALTGR},	// à Small A Grave

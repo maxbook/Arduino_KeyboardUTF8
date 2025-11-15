@@ -2,7 +2,7 @@
 
 // Belgian (Period)
 
-const UnicodeLookup kbdbe_1[] PROGMEM = 
+const UnicodeLookup kbdbe_1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -115,7 +115,7 @@ const UnicodeLookup kbdbe_1[] PROGMEM =
   {0x003d, 0x38},	// Equals Sign
 };
 
-const DeadkeyLookup kbdbe_1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdbe_1_deadkeys[] = 
 {
   {0x00b4, 0x00b4, 0x34 | MOD_ALTGR},	// ´  accent
   {0x00e1, 0x0061, 0x34 | MOD_ALTGR},	// á Small A Acute

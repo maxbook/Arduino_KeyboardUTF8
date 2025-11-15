@@ -2,7 +2,7 @@
 
 // Armenian Typewriter
 
-const UnicodeLookup kbdarmty[] PROGMEM = 
+const UnicodeLookup kbdarmty[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -142,7 +142,7 @@ const UnicodeLookup kbdarmty[] PROGMEM =
   {0x057c, 0x38},	// Armenian Small Letter Ra
 };
 
-const DeadkeyLookup kbdarmty_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdarmty_deadkeys[] = 
 {
 };
 

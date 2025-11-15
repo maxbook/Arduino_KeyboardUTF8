@@ -2,7 +2,7 @@
 
 // Greek Polytonic
 
-const UnicodeLookup kbdhept[] PROGMEM = 
+const UnicodeLookup kbdhept[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -101,7 +101,7 @@ const UnicodeLookup kbdhept[] PROGMEM =
   {0x002e, 0x37},	// Full Stop
 };
 
-const DeadkeyLookup kbdhept_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhept_deadkeys[] = 
 {
   {0x1f87, 0x1f87, 0x2e | (MOD_SHIFT | MOD_ALTGR)},	// ᾇ  accent
   {0x1f8f, 0x1f8f, 0x2e | (MOD_SHIFT | MOD_ALTGR)},	// ᾏ  accent

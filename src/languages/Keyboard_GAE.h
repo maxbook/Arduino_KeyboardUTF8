@@ -2,7 +2,7 @@
 
 // Scottish Gaelic
 
-const UnicodeLookup kbdgae[] PROGMEM = 
+const UnicodeLookup kbdgae[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -121,7 +121,7 @@ const UnicodeLookup kbdgae[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdgae_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgae_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x35},	// `  accent
   {0x00e0, 0x0061, 0x35},	// à Small A Grave

@@ -2,7 +2,7 @@
 
 // Gothic
 
-const UnicodeLookup kbdgthc[] PROGMEM = 
+const UnicodeLookup kbdgthc[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -52,7 +52,7 @@ const UnicodeLookup kbdgthc[] PROGMEM =
   {0x00b7, 0x38},	// Middle Dot
 };
 
-const DeadkeyLookup kbdgthc_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdgthc_deadkeys[] = 
 {
 };
 

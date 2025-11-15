@@ -2,7 +2,7 @@
 
 // Cherokee Nation
 
-const UnicodeLookup kbdcher[] PROGMEM = 
+const UnicodeLookup kbdcher[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -190,7 +190,7 @@ const UnicodeLookup kbdcher[] PROGMEM =
   {0x13c2, 0x38},	// Cherokee Letter Ni
 };
 
-const DeadkeyLookup kbdcher_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdcher_deadkeys[] = 
 {
 };
 

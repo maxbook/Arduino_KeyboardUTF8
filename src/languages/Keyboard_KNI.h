@@ -2,7 +2,7 @@
 
 // Khmer (NIDA)
 
-const UnicodeLookup kbdkni[] PROGMEM = 
+const UnicodeLookup kbdkni[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -126,7 +126,7 @@ const UnicodeLookup kbdkni[] PROGMEM =
   {0x17ca, 0x38},	// Khmer Sign Triisap
 };
 
-const DeadkeyLookup kbdkni_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdkni_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Turkish F
 
-const UnicodeLookup kbdtuf[] PROGMEM = 
+const UnicodeLookup kbdtuf[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -147,7 +147,7 @@ const UnicodeLookup kbdtuf[] PROGMEM =
   {0x002c, 0x38},	// Comma
 };
 
-const DeadkeyLookup kbdtuf_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtuf_deadkeys[] = 
 {
   {0x00a8, 0x00a8, 0x2f | MOD_ALTGR},	// ¨  accent
   {0x00e4, 0x0061, 0x2f | MOD_ALTGR},	// ä Small A Diaeresis

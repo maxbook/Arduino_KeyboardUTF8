@@ -2,7 +2,7 @@
 
 // Arabic (102)
 
-const UnicodeLookup kbda2[] PROGMEM = 
+const UnicodeLookup kbda2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -102,7 +102,7 @@ const UnicodeLookup kbda2[] PROGMEM =
   {0x0638, 0x38},	// Arabic Letter Zah
 };
 
-const DeadkeyLookup kbda2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbda2_deadkeys[] = 
 {
 };
 

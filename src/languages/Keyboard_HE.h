@@ -2,7 +2,7 @@
 
 // Greek
 
-const UnicodeLookup kbdhe[] PROGMEM = 
+const UnicodeLookup kbdhe[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -119,7 +119,7 @@ const UnicodeLookup kbdhe[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdhe_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdhe_deadkeys[] = 
 {
   {0x0385, 0x0385, 0x1a | MOD_SHIFT},	// ΅  accent
   {0x0390, 0x0390, 0x1a | MOD_SHIFT},	// ΐ  accent

@@ -2,7 +2,7 @@
 
 // Dutch
 
-const UnicodeLookup kbdne[] PROGMEM = 
+const UnicodeLookup kbdne[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -122,7 +122,7 @@ const UnicodeLookup kbdne[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdne_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdne_deadkeys[] = 
 {
   {0x00b8, 0x00b8, 0x2e | MOD_ALTGR},	// ¸  accent
   {0x00e7, 0x0063, 0x2e | MOD_ALTGR},	// ç Small C Cedilla

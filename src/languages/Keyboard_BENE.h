@@ -2,7 +2,7 @@
 
 // Belgian (Comma)
 
-const UnicodeLookup kbdbene[] PROGMEM = 
+const UnicodeLookup kbdbene[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -115,7 +115,7 @@ const UnicodeLookup kbdbene[] PROGMEM =
   {0x003d, 0x38},	// Equals Sign
 };
 
-const DeadkeyLookup kbdbene_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdbene_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x31 | MOD_ALTGR},	// `  accent
   {0x00e0, 0x0061, 0x31 | MOD_ALTGR},	// à Small A Grave

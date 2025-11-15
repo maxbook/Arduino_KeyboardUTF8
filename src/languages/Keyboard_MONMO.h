@@ -2,7 +2,7 @@
 
 // Mongolian (Mongolian Script)
 
-const UnicodeLookup kbdmonmo[] PROGMEM = 
+const UnicodeLookup kbdmonmo[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -88,7 +88,7 @@ const UnicodeLookup kbdmonmo[] PROGMEM =
   {0x002e, 0x38},	// Full Stop
 };
 
-const DeadkeyLookup kbdmonmo_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmonmo_deadkeys[] = 
 {
 };
 

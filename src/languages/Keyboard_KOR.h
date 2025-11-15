@@ -2,7 +2,7 @@
 
 // Korean
 
-const UnicodeLookup kbdkor[] PROGMEM = 
+const UnicodeLookup kbdkor[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdkor[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdkor_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdkor_deadkeys[] = 
 {
 };
 

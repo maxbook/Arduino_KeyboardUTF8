@@ -2,7 +2,7 @@
 
 // Pashto (Afghanistan)
 
-const UnicodeLookup kbdpash[] PROGMEM = 
+const UnicodeLookup kbdpash[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -147,7 +147,7 @@ const UnicodeLookup kbdpash[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdpash_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdpash_deadkeys[] = 
 {
 };
 

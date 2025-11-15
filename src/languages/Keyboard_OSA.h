@@ -2,7 +2,7 @@
 
 // Osage
 
-const UnicodeLookup kbdosa[] PROGMEM = 
+const UnicodeLookup kbdosa[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -86,7 +86,7 @@ const UnicodeLookup kbdosa[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdosa_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdosa_deadkeys[] = 
 {
 };
 

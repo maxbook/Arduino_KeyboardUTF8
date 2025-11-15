@@ -2,7 +2,7 @@
 
 // Latvian (Standard)
 
-const UnicodeLookup kbdlvst[] PROGMEM = 
+const UnicodeLookup kbdlvst[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -141,7 +141,7 @@ const UnicodeLookup kbdlvst[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdlvst_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlvst_deadkeys[] = 
 {
   {0x2014, 0x2014, 0x34},	// —  accent
   {0x00a8, 0x00a8, 0x34 | (MOD_SHIFT | MOD_ALTGR)},	// ¨  accent

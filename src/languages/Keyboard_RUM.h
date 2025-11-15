@@ -2,7 +2,7 @@
 
 // Russian - Mnemonic
 
-const UnicodeLookup kbdrum[] PROGMEM = 
+const UnicodeLookup kbdrum[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -95,7 +95,7 @@ const UnicodeLookup kbdrum[] PROGMEM =
   {0x002e, 0x37},	// Full Stop
 };
 
-const DeadkeyLookup kbdrum_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdrum_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x35 | MOD_ALTGR},	// `  accent
   {0x00a8, 0x00a8, 0x35 | MOD_ALTGR},	// ¨  accent

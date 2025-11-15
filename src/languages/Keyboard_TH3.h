@@ -2,7 +2,7 @@
 
 // Thai Pattachote (non-ShiftLock)
 
-const UnicodeLookup kbdth3[] PROGMEM = 
+const UnicodeLookup kbdth3[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -103,7 +103,7 @@ const UnicodeLookup kbdth3[] PROGMEM =
   {0x0e1e, 0x38},	// Thai Character Pho Phan
 };
 
-const DeadkeyLookup kbdth3_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdth3_deadkeys[] = 
 {
 };
 

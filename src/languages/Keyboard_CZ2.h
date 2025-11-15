@@ -2,7 +2,7 @@
 
 // Czech Programmers
 
-const UnicodeLookup kbdcz2[] PROGMEM = 
+const UnicodeLookup kbdcz2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -121,7 +121,7 @@ const UnicodeLookup kbdcz2[] PROGMEM =
   {0x002e, 0x37},	// Full Stop
 };
 
-const DeadkeyLookup kbdcz2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdcz2_deadkeys[] = 
 {
   {0x00b0, 0x00b0, 0x35 | (MOD_SHIFT | MOD_ALTGR)},	// °  accent
   {0x00e5, 0x0061, 0x35 | (MOD_SHIFT | MOD_ALTGR)},	// å Small A Ring Above,

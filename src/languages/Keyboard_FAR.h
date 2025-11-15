@@ -2,7 +2,7 @@
 
 // Persian (Standard)
 
-const UnicodeLookup kbdfar[] PROGMEM = 
+const UnicodeLookup kbdfar[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -102,7 +102,7 @@ const UnicodeLookup kbdfar[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdfar_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdfar_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Lithuanian Standard
 
-const UnicodeLookup kbdlt2[] PROGMEM = 
+const UnicodeLookup kbdlt2[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -129,7 +129,7 @@ const UnicodeLookup kbdlt2[] PROGMEM =
   {0x0119, 0x38},	// Latin Small Letter E With Ogonek
 };
 
-const DeadkeyLookup kbdlt2_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdlt2_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Bosnian (Cyrillic)
 
-const UnicodeLookup kbdbhc[] PROGMEM = 
+const UnicodeLookup kbdbhc[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -117,7 +117,7 @@ const UnicodeLookup kbdbhc[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdbhc_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdbhc_deadkeys[] = 
 {
   {0x005c, 0x005c, 0x2d},	// \  accent
   {0x0027, 0x0027, 0x2d},	// '  accent

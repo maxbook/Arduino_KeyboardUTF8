@@ -2,7 +2,7 @@
 
 // Spanish
 
-const UnicodeLookup kbdsp[] PROGMEM = 
+const UnicodeLookup kbdsp[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -113,7 +113,7 @@ const UnicodeLookup kbdsp[] PROGMEM =
   {0x002d, 0x38},	// Hyphen-Minus
 };
 
-const DeadkeyLookup kbdsp_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdsp_deadkeys[] = 
 {
   {0x007e, 0x007e, 0x21 | MOD_ALTGR},	// ~  accent
   {0x00e3, 0x0061, 0x21 | MOD_ALTGR},	// ã Small A Tilde

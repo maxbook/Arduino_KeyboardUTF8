@@ -2,7 +2,7 @@
 
 // United Kingdom Extended
 
-const UnicodeLookup kbdukx[] PROGMEM = 
+const UnicodeLookup kbdukx[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -125,7 +125,7 @@ const UnicodeLookup kbdukx[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdukx_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdukx_deadkeys[] = 
 {
   {0x00a8, 0x00a8, 0x1f | MOD_ALTGR},	// ¨  accent
   {0x00e4, 0x0061, 0x1f | MOD_ALTGR},	// ä Small A Diaeresis

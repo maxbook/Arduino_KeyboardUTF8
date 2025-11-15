@@ -2,7 +2,7 @@
 
 // Bulgarian (Latin)
 
-const UnicodeLookup kbdus_1[] PROGMEM = 
+const UnicodeLookup kbdus_1[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdus_1[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdus_1_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdus_1_deadkeys[] = 
 {
 };
 

@@ -2,7 +2,7 @@
 
 // Bengali
 
-const UnicodeLookup kbdinben[] PROGMEM = 
+const UnicodeLookup kbdinben[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -114,7 +114,7 @@ const UnicodeLookup kbdinben[] PROGMEM =
   {0x09af, 0x38},	// Bengali Letter Ya
 };
 
-const DeadkeyLookup kbdinben_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdinben_deadkeys[] = 
 {
 };
 

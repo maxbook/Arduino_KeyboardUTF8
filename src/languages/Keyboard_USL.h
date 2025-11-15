@@ -2,7 +2,7 @@
 
 // United States-Dvorak for left hand
 
-const UnicodeLookup kbdusl[] PROGMEM = 
+const UnicodeLookup kbdusl[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdusl[] PROGMEM =
   {0x0039, 0x38},	// Digit Nine
 };
 
-const DeadkeyLookup kbdusl_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdusl_deadkeys[] = 
 {
 };
 

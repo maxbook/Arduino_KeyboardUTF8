@@ -1,5 +1,35 @@
-# KeyboardUTF8
-This Arduino library adds a mapping layer on top of the Keyboard library (for Leonardo/Micro/Due) to allow non-US keyboards and 'typing' UTF-8 Unicode characters.  It uses keyboard layout data scraped from [Microsoft's globalization website](https://docs.microsoft.com/en-us/globalization/windows-keyboard-layouts).
+# KeyboardUTF8 for ESP32S3 with TinyUSB
+
+This Arduino library provides non-US keyboard layouts and UTF-8 Unicode character support for ESP32S3 boards using TinyUSB. It uses keyboard layout data scraped from [Microsoft's globalization website](https://docs.microsoft.com/en-us/globalization/windows-keyboard-layouts).
+
+## Requirements
+
+- ESP32S3 board
+- Arduino IDE with ESP32 board support
+- TinyUSB enabled in Arduino IDE (Tools > USB Mode > "USB-OTG (TinyUSB)")
+
+## Installation
+
+1. Download this library
+2. Place it in your Arduino libraries folder
+3. Restart Arduino IDE
+
+## Usage
+
+```cpp
+#include <KeyboardUTF8.h>
+#include <languages/Keyboard_GR.h>  // German keyboard layout
+
+void setup() {
+  Keyboard_GR.begin();  // Initialize the keyboard
+  delay(1000);          // Wait for USB initialization
+  
+  Keyboard_GR.println("Hello World!");
+  Keyboard_GR.println("Umlauts: äöüÄÖÜß");
+}
+
+void loop() {}
+```
 
 ## After `#include <KeyboardUTF8.h>` the available keyboard layouts are:
 ```

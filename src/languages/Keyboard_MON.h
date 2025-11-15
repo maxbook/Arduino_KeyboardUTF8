@@ -2,7 +2,7 @@
 
 // Mongolian Cyrillic
 
-const UnicodeLookup kbdmon[] PROGMEM = 
+const UnicodeLookup kbdmon[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -105,7 +105,7 @@ const UnicodeLookup kbdmon[] PROGMEM =
   {0x044e, 0x38},	// Cyrillic Small Letter Yu
 };
 
-const DeadkeyLookup kbdmon_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdmon_deadkeys[] = 
 {
 };
 

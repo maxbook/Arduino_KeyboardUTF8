@@ -2,7 +2,7 @@
 
 // Futhark
 
-const UnicodeLookup kbdfthrk[] PROGMEM = 
+const UnicodeLookup kbdfthrk[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -51,7 +51,7 @@ const UnicodeLookup kbdfthrk[] PROGMEM =
   {0x16ed, 0x38},	// Runic Cross Punctuation
 };
 
-const DeadkeyLookup kbdfthrk_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdfthrk_deadkeys[] = 
 {
   {0x007c, 0x007c, 0x28 | MOD_SHIFT},	// |  accent
   {0x16ad, 0x16ad, 0x28},	// ᚭ  accent

@@ -2,7 +2,7 @@
 
 // ADLaM
 
-const UnicodeLookup kbdadlm[] PROGMEM = 
+const UnicodeLookup kbdadlm[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -66,7 +66,7 @@ const UnicodeLookup kbdadlm[] PROGMEM =
   {0x002f, 0x38},	// Solidus
 };
 
-const DeadkeyLookup kbdadlm_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdadlm_deadkeys[] = 
 {
   {0x0060, 0x0060, 0x35},	// `  accent
 };

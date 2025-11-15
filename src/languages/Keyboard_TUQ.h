@@ -2,7 +2,7 @@
 
 // Turkish Q
 
-const UnicodeLookup kbdtuq[] PROGMEM = 
+const UnicodeLookup kbdtuq[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -122,7 +122,7 @@ const UnicodeLookup kbdtuq[] PROGMEM =
   {0x002e, 0x38},	// Full Stop
 };
 
-const DeadkeyLookup kbdtuq_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtuq_deadkeys[] = 
 {
   {0x00a8, 0x00a8, 0x2f | MOD_ALTGR},	// ¨  accent
   {0x00e4, 0x0061, 0x2f | MOD_ALTGR},	// ä Small A Diaeresis

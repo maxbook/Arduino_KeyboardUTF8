@@ -2,7 +2,7 @@
 
 // Tai Le
 
-const UnicodeLookup kbdtaile[] PROGMEM = 
+const UnicodeLookup kbdtaile[] = 
 {
   {0x0008, 0x2a},	// Backspace
   {0x0009, 0x2b},	// Tab
@@ -85,7 +85,7 @@ const UnicodeLookup kbdtaile[] PROGMEM =
   {0x1960, 0x38},	// Tai Le Letter Kha
 };
 
-const DeadkeyLookup kbdtaile_deadkeys[] PROGMEM = 
+const DeadkeyLookup kbdtaile_deadkeys[] = 
 {
 };
 
