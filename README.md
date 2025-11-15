@@ -4,15 +4,34 @@ This Arduino library provides non-US keyboard layouts and UTF-8 Unicode characte
 
 ## Requirements
 
-- ESP32S3 board
-- Arduino IDE with ESP32 board support
-- TinyUSB enabled in Arduino IDE (Tools > USB Mode > "USB-OTG (TinyUSB)")
+- **ESP32S3 board** (ESP32S3 required, not ESP32 or ESP32-C3)
+- **Arduino IDE** with ESP32 board support installed
+- **TinyUSB enabled** in Arduino IDE
 
 ## Installation
 
-1. Download this library
-2. Place it in your Arduino libraries folder
-3. Restart Arduino IDE
+### 1. Install ESP32 Board Support
+
+In Arduino IDE:
+1. Go to File → Preferences
+2. Add to "Additional Board Manager URLs":
+   ```
+   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   ```
+3. Go to Tools → Board → Boards Manager
+4. Search for "esp32" and install "esp32 by Espressif Systems"
+
+### 2. Install This Library
+
+1. Download this library as ZIP
+2. In Arduino IDE: Sketch → Include Library → Add .ZIP Library
+3. Select the downloaded ZIP file
+
+### 3. Configure Arduino IDE for ESP32S3
+
+1. Select your ESP32S3 board: Tools → Board → ESP32 Arduino → ESP32S3 Dev Module
+2. **IMPORTANT**: Set USB Mode to TinyUSB: Tools → USB Mode → "USB-OTG (TinyUSB)"
+3. Set other settings as needed for your board
 
 ## Usage
 
@@ -30,6 +49,35 @@ void setup() {
 
 void loop() {}
 ```
+
+## Important Notes
+
+- Always call `begin()` before using the keyboard
+- Add a 1-second delay after `begin()` to allow USB initialization
+- The ESP32S3 will appear as a USB HID keyboard to your computer
+- Only one USB mode can be active at a time (you can't use Serial and Keyboard simultaneously in USB-CDC mode)
+
+## Examples
+
+- **Keyboard_GR**: German keyboard layout example
+- **ESP32S3_Basic**: Basic example with button press detection
+
+## Troubleshooting
+
+**Keyboard doesn't work:**
+- Verify USB Mode is set to "USB-OTG (TinyUSB)" in Arduino IDE
+- Make sure you're using an ESP32S3 board (not ESP32 or ESP32-C3)
+- Check that the USB cable supports data transfer (not just power)
+- Try increasing the delay after `begin()` to 2000ms
+
+**Can't upload sketches:**
+- If the ESP32S3 is acting as a keyboard, you may need to put it in bootloader mode manually
+- Hold BOOT button, press RESET button, release RESET, then release BOOT
+- Then immediately upload your sketch
+
+**Serial monitor doesn't work:**
+- When USB Mode is set to TinyUSB, Serial over USB is not available
+- Use UART pins (GPIO43/GPIO44) with a USB-to-Serial adapter for debugging
 
 ## After `#include <KeyboardUTF8.h>` the available keyboard layouts are:
 ```
